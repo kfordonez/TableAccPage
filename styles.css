@@ -1,0 +1,178 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #005a99; /* Azul más oscuro para mejor contraste */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #00487a; /* Línea de borde inferior más oscura */
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Barra de navegación */
+#navPrincipal {
+    background-color: #003399; /* Azul oscuro */
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navPrincipal ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navPrincipal ol li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#navPrincipal ol li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#navPrincipal ol li a:hover {
+    text-decoration: underline;
+    color: #e0ebf5; /* Azul claro al pasar el ratón */
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+main h1, main h2 {
+    color: #00487a; /* Azul más oscuro para títulos */
+    margin-top: 40px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+/* Video y audio */
+video, audio {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Botones y enlaces */
+a {
+    color: #005a99; /* Azul oscuro para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00487a; /* Azul más oscuro en hover */
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #bbb; /* Borde gris oscuro */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #005a99; /* Encabezado de tabla en azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold;
+}
+
+td {
+    background-color: #f2f2f2; /* Fondo gris claro */
+}
+
+/* Formularios */
+form {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border: 1px solid #bbb;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #999; /* Borde gris oscuro */
+    border-radius: 5px;
+}
+
+input[type="submit"], button {
+    background-color: #005a99; /* Azul oscuro */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #00487a; /* Azul más oscuro en hover */
+}
+
+/* Footer */
+footer {
+    background-color: #003399; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #e0ebf5; /* Azul claro al pasar el ratón */
+}
